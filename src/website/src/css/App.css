@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Lobster&family=Pacifico&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap');
+
+body {
+    font-family: 'Red Hat Text', sans-serif;
+    background-color: #b0fdb0;
+}
+
+.nav {
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #8fbc8f;
+}
+
+.nav-links {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.logo {
+    font-family: 'Pacifico', sans-serif;
+    border-radius: 5px;
+    font-size: 35px;
+    color: #424242;
+    text-decoration: none;
+}
