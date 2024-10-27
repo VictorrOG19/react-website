@@ -5,7 +5,7 @@ const PORT = 5000;
 
 app.use(express.json());
 
-app.get("/api", (req, res) => {
+app.get("/", (req, res) => {
     res.json({ message: "API funcionando" });
 });
 

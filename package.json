@@ -1,0 +1,12 @@
+{
+  "name": "meu-projeto",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "concurrently \"npm run client\" \"npm run server\"",
+    "server": "cd src/api && npm start", 
+    "client": "cd src/website && npm start"
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.1"
+  }
+}
